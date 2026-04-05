@@ -1,0 +1,264 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    devDependencies:
+      vize:
+        specifier: ^0.39.0
+        version: 0.39.0
+
+packages:
+
+  '@emnapi/core@1.9.2':
+    resolution: {integrity: sha512-UC+ZhH3XtczQYfOlu3lNEkdW/p4dsJ1r/bP7H8+rhao3TTTMO1ATq/4DdIi23XuGoFY+Cz0JmCbdVl0hz9jZcA==}
+
+  '@emnapi/runtime@1.9.2':
+    resolution: {integrity: sha512-3U4+MIWHImeyu1wnmVygh5WlgfYDtyf0k8AbLhMFxOipihf6nrWC4syIm/SwEeec0mNSafiiNnMJwbza/Is6Lw==}
+
+  '@emnapi/wasi-threads@1.2.1':
+    resolution: {integrity: sha512-uTII7OYF+/Mes/MrcIOYp5yOtSMLBWSIoLPpcgwipoiKbli6k322tcoFsxoIIxPDqW01SQGAgko4EzZi2BNv2w==}
+
+  '@napi-rs/wasm-runtime@0.2.12':
+    resolution: {integrity: sha512-ZVWUcfwY4E/yPitQJl481FjFo3K22D6qF0DuFH6Y/nbnE11GY5uguDxZMGXPQ8WQ0128MXQD7TnfHyK4oWoIJQ==}
+
+  '@oxc-transform/binding-darwin-arm64@0.56.5':
+    resolution: {integrity: sha512-OlLgqKlWqA5A5IW3/YOKV2egeT/h/I36FjB88f07xbOGn/4B1Zj8TeIyvW49rbvi2edz6z5roPzp/CV/htXVHQ==}
+    engines: {node: '>=14.0.0'}
+    cpu: [arm64]
+    os: [darwin]
+
+  '@oxc-transform/binding-darwin-x64@0.56.5':
+    resolution: {integrity: sha512-4dEIUwNa+GVz+9nD/Yh9bC3hBL0m6/FQD/p0cTJNVTD8NCuuvHVb4wtIQMbzeROZILrYYDnb7y+WA6MiONVGlA==}
+    engines: {node: '>=14.0.0'}
+    cpu: [x64]
+    os: [darwin]
+
+  '@oxc-transform/binding-linux-arm-gnueabihf@0.56.5':
+    resolution: {integrity: sha512-Py/EGK8xSpC/u5TiXG13BihNaV9uoix4G4XMveNlpeOZI7t4SPkCVLQu5X6+4gdEEaJ7km+rrmjXLmrHfWQnjA==}
+    engines: {node: '>=14.0.0'}
+    cpu: [arm]
+    os: [linux]
+
+  '@oxc-transform/binding-linux-arm64-gnu@0.56.5':
+    resolution: {integrity: sha512-EEgK8RIbJRdLXHJS1VqrEgaMdcwu25xgGZACrSdqmGTAxP5jGwMXModcOdb7a0qiZpyMBEwM3Sa/u0kflJFYLQ==}
+    engines: {node: '>=14.0.0'}
+    cpu: [arm64]
+    os: [linux]
+    libc: [glibc]
+
+  '@oxc-transform/binding-linux-arm64-musl@0.56.5':
+    resolution: {integrity: sha512-SwFBYSWS/GGBqMTqrNoN0IXFRhhey3euBe6a+QPKaI4RHC0jAxJIVIG5dRUjgPg4eAtnpbkWR+1MNk38mF6RiQ==}
+    engines: {node: '>=14.0.0'}
+    cpu: [arm64]
+    os: [linux]
+    libc: [musl]
+
+  '@oxc-transform/binding-linux-x64-gnu@0.56.5':
+    resolution: {integrity: sha512-/egcz00fX5/oRArkmnE6CbRC6aZSOPi/+08AnN5E80iK1K47AB9tWWaA0wS1eI4glDIXlcupH3lYzxSS2qcbBg==}
+    engines: {node: '>=14.0.0'}
+    cpu: [x64]
+    os: [linux]
+    libc: [glibc]
+
+  '@oxc-transform/binding-linux-x64-musl@0.56.5':
+    resolution: {integrity: sha512-W7hFOx+hvvhB7dmDNYllEInWJrjBrnrsDLZ5/hcqDenLphj7EBfCDDhBMmwgcMCbAc8OIYW/dFMWlTTAPYMZ4Q==}
+    engines: {node: '>=14.0.0'}
+    cpu: [x64]
+    os: [linux]
+    libc: [musl]
+
+  '@oxc-transform/binding-wasm32-wasi@0.56.5':
+    resolution: {integrity: sha512-6sbMQmFTwiG5tJuUtFFUiyy3wapjzBTTr6uFR6aeaRu8V9yeCaM8O2LXa1g+Lo+t1RUDcIjGxXB+hAgzN3+5wA==}
+    engines: {node: '>=14.0.0'}
+    cpu: [wasm32]
+
+  '@oxc-transform/binding-win32-arm64-msvc@0.56.5':
+    resolution: {integrity: sha512-kdejF9Q+Ig/xZ+VcJlGusOw22vVNIsP18MlR4TMTuoOcxkz9/bUQg+oj17V/gATmR5LZDXUU05CQLsdJgrCT6w==}
+    engines: {node: '>=14.0.0'}
+    cpu: [arm64]
+    os: [win32]
+
+  '@oxc-transform/binding-win32-x64-msvc@0.56.5':
+    resolution: {integrity: sha512-/gmPYm+U5R/B81NTQfWOVlpxHooBjcZxPeGHHbh2nuRzrpxAE1fdXktZ2IbpOWCT5sRrAlY6ubQigfJJHKy1uA==}
+    engines: {node: '>=14.0.0'}
+    cpu: [x64]
+    os: [win32]
+
+  '@tybys/wasm-util@0.10.1':
+    resolution: {integrity: sha512-9tTaPJLSiejZKx+Bmog4uSubteqTvFrVrURwkmHixBo0G4seD0zUxp98E1DzUBJxLQ3NPwXrGKDiVjwx/DpPsg==}
+
+  '@vizejs/native-darwin-arm64@0.39.0':
+    resolution: {integrity: sha512-MbI2b3rGBOpGSkFPgXup4+eTTgnUuEXHcfQhPj5EXiT2MuFm6nCq2BzduFNTd5b/P2d8UMtj14d604dwGf8RUw==}
+    cpu: [arm64]
+    os: [darwin]
+
+  '@vizejs/native-darwin-x64@0.39.0':
+    resolution: {integrity: sha512-k3XuUV2bEZcmI/nGyaDZyGaCC7Rr1srfGlmNE1ZuHbMrkGyP999BxoSHoz0gClg/KHXrml5lqGmzT1T0WpOaZg==}
+    cpu: [x64]
+    os: [darwin]
+
+  '@vizejs/native-linux-arm64-gnu@0.39.0':
+    resolution: {integrity: sha512-Ssx/LSYEPMc9gGR23Z3Q0XwD3zIEc7dwZb3ZyMmRB50UbTpqAjhVwYUhUNQJgsvp9LCtUEwofyzRnuzVRdrBDA==}
+    cpu: [arm64]
+    os: [linux]
+    libc: [glibc]
+
+  '@vizejs/native-linux-arm64-musl@0.39.0':
+    resolution: {integrity: sha512-lTDnjvSk2seknNU7p65FhwGqaaRp/rgFXtPPDtQ1yfrr7Y6MN4GovaUYqiCGa/6+JsW741bB+gYFnB39PLQ5pg==}
+    cpu: [arm64]
+    os: [linux]
+    libc: [musl]
+
+  '@vizejs/native-linux-x64-gnu@0.39.0':
+    resolution: {integrity: sha512-rk8wtDEzmw57HpMqO6vfSYJQhnVvy6tSVKzetEIIwztfBxtFxiK1Bgb8kgX6Zteigcc7AmQ3yl/lFHQBA3ZYow==}
+    cpu: [x64]
+    os: [linux]
+    libc: [glibc]
+
+  '@vizejs/native-linux-x64-musl@0.39.0':
+    resolution: {integrity: sha512-6IKSmbD/+yaZcbPlRZFbOYJFQF2A5oeqMAWD4MAfCC11kqjBHrjf1QAqZBAmbQ2+7NktOgKQHwfAT/uNwx1Kdw==}
+    cpu: [x64]
+    os: [linux]
+    libc: [musl]
+
+  '@vizejs/native-win32-arm64-msvc@0.39.0':
+    resolution: {integrity: sha512-eTM34YhCzocIu9Ij8BBwLXblmDJBYlrfvBW2fgBg2i/V/VVn08j3XBAiw8sZyIt4dxiSUCPO7NiS3Yn4xnAD1w==}
+    cpu: [arm64]
+    os: [win32]
+
+  '@vizejs/native-win32-x64-msvc@0.39.0':
+    resolution: {integrity: sha512-YDDdpPxPyAZx4wOi4PjhHhXswCH2aEl4b15/+vASGCa+4l4PvfR9UO7AWQPthZQkWkTq9CORzaJQ5OdQ7ZVfjw==}
+    cpu: [x64]
+    os: [win32]
+
+  oxc-transform@0.56.5:
+    resolution: {integrity: sha512-cLIZZqdwLpBBTZ9ILNpcGQUrqvgLKpo1+wx9CHimORs4Q6HUMjOYK65aZzyi5pIfBGzq0j3avK7rufpik0vzlA==}
+    engines: {node: '>=14.0.0'}
+
+  tslib@2.8.1:
+    resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
+
+  vize@0.39.0:
+    resolution: {integrity: sha512-f9lItqfBVr2oXQBaAuvsFzpdd8MhTUHIUY+hDQv+sxOgsBsfGZRJzXM7E88WC1Z0a+YsR/nzPlWfFah1Fc+nng==}
+    engines: {node: '>=18'}
+    hasBin: true
+
+snapshots:
+
+  '@emnapi/core@1.9.2':
+    dependencies:
+      '@emnapi/wasi-threads': 1.2.1
+      tslib: 2.8.1
+    optional: true
+
+  '@emnapi/runtime@1.9.2':
+    dependencies:
+      tslib: 2.8.1
+    optional: true
+
+  '@emnapi/wasi-threads@1.2.1':
+    dependencies:
+      tslib: 2.8.1
+    optional: true
+
+  '@napi-rs/wasm-runtime@0.2.12':
+    dependencies:
+      '@emnapi/core': 1.9.2
+      '@emnapi/runtime': 1.9.2
+      '@tybys/wasm-util': 0.10.1
+    optional: true
+
+  '@oxc-transform/binding-darwin-arm64@0.56.5':
+    optional: true
+
+  '@oxc-transform/binding-darwin-x64@0.56.5':
+    optional: true
+
+  '@oxc-transform/binding-linux-arm-gnueabihf@0.56.5':
+    optional: true
+
+  '@oxc-transform/binding-linux-arm64-gnu@0.56.5':
+    optional: true
+
+  '@oxc-transform/binding-linux-arm64-musl@0.56.5':
+    optional: true
+
+  '@oxc-transform/binding-linux-x64-gnu@0.56.5':
+    optional: true
+
+  '@oxc-transform/binding-linux-x64-musl@0.56.5':
+    optional: true
+
+  '@oxc-transform/binding-wasm32-wasi@0.56.5':
+    dependencies:
+      '@napi-rs/wasm-runtime': 0.2.12
+    optional: true
+
+  '@oxc-transform/binding-win32-arm64-msvc@0.56.5':
+    optional: true
+
+  '@oxc-transform/binding-win32-x64-msvc@0.56.5':
+    optional: true
+
+  '@tybys/wasm-util@0.10.1':
+    dependencies:
+      tslib: 2.8.1
+    optional: true
+
+  '@vizejs/native-darwin-arm64@0.39.0':
+    optional: true
+
+  '@vizejs/native-darwin-x64@0.39.0':
+    optional: true
+
+  '@vizejs/native-linux-arm64-gnu@0.39.0':
+    optional: true
+
+  '@vizejs/native-linux-arm64-musl@0.39.0':
+    optional: true
+
+  '@vizejs/native-linux-x64-gnu@0.39.0':
+    optional: true
+
+  '@vizejs/native-linux-x64-musl@0.39.0':
+    optional: true
+
+  '@vizejs/native-win32-arm64-msvc@0.39.0':
+    optional: true
+
+  '@vizejs/native-win32-x64-msvc@0.39.0':
+    optional: true
+
+  oxc-transform@0.56.5:
+    optionalDependencies:
+      '@oxc-transform/binding-darwin-arm64': 0.56.5
+      '@oxc-transform/binding-darwin-x64': 0.56.5
+      '@oxc-transform/binding-linux-arm-gnueabihf': 0.56.5
+      '@oxc-transform/binding-linux-arm64-gnu': 0.56.5
+      '@oxc-transform/binding-linux-arm64-musl': 0.56.5
+      '@oxc-transform/binding-linux-x64-gnu': 0.56.5
+      '@oxc-transform/binding-linux-x64-musl': 0.56.5
+      '@oxc-transform/binding-wasm32-wasi': 0.56.5
+      '@oxc-transform/binding-win32-arm64-msvc': 0.56.5
+      '@oxc-transform/binding-win32-x64-msvc': 0.56.5
+
+  tslib@2.8.1:
+    optional: true
+
+  vize@0.39.0:
+    dependencies:
+      oxc-transform: 0.56.5
+    optionalDependencies:
+      '@vizejs/native-darwin-arm64': 0.39.0
+      '@vizejs/native-darwin-x64': 0.39.0
+      '@vizejs/native-linux-arm64-gnu': 0.39.0
+      '@vizejs/native-linux-arm64-musl': 0.39.0
+      '@vizejs/native-linux-x64-gnu': 0.39.0
+      '@vizejs/native-linux-x64-musl': 0.39.0
+      '@vizejs/native-win32-arm64-msvc': 0.39.0
+      '@vizejs/native-win32-x64-msvc': 0.39.0
